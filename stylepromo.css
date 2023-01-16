@@ -1,0 +1,82 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: #ffb43a;
+    --hover-color: hsl(37, 94%, 57%);
+    --body-color: #1e1e2a;
+    --container-color: #2d2e37;
+    --text-color: #fcfeff;
+}
+
+body{
+    background: var(--body-color);
+    color: var(--text-color);
+}
+
+.flex{
+    display: flex;
+}
+
+.card{
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.card:hover{
+    box-shadow: 1px 1px 5px var(--hover-color);
+    transition: 0.4s;
+}
+
+.img-card{
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.img{
+    width: 100%;
+}
+
+.harga{
+    color: orange;
+}
+
+.user{
+    color: grey;
+}
+
+.btn-block{
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+.btn-block:hover{
+    background-color:var(--body-color);
+    border-style: solid;
+    color:var(--hover-color);
+    transition: 0.3s;
+}
+
+.btn-order{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-order:hover{
+    color: var(--hover-color);
+}
