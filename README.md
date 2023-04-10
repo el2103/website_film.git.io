@@ -1,1 +1,2 @@
 # buatadji
+# buatadji.git.io
